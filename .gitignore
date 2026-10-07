@@ -2,6 +2,7 @@ node_modules
 .next
 dist
 out
+build
 coverage
 .env
 .env.local

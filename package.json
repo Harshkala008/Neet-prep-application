@@ -4,7 +4,7 @@
   "packageManager": "pnpm@9.15.5",
   "scripts": {
     "dev": "corepack pnpm --parallel --filter @neet/web --filter @neet/api dev",
-    "build": "corepack pnpm -r build",
+    "build": "corepack pnpm -r build && node scripts/prepare-render-output.mjs",
     "lint": "corepack pnpm -r lint",
     "typecheck": "corepack pnpm -r typecheck",
     "test": "corepack pnpm -r test",

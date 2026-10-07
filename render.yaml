@@ -1,8 +1,8 @@
 services:
   - type: static_site
     name: neet-master-tracker
-    buildCommand: pnpm install --frozen-lockfile && pnpm build && rm -rf render-dist && cp -R apps/web/out render-dist
-    staticPublishPath: render-dist
+    buildCommand: pnpm install --frozen-lockfile && pnpm build
+    staticPublishPath: build
     headers:
       - path: /*
         name: Cache-Control

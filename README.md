@@ -76,8 +76,8 @@ enabled.
 Alternatively, create a Render **Static Site** from this repository. The
 included `render.yaml` supplies the configuration automatically:
 
-- Build command: `pnpm install --frozen-lockfile && pnpm build && rm -rf render-dist && cp -R apps/web/out render-dist`
-- Publish directory: `render-dist`
+- Build command: `pnpm install --frozen-lockfile && pnpm build`
+- Publish directory: `build`
 - URL: Render will provide a `*.onrender.com` address after the first deploy
 
 In Render, connect the repository, choose **Blueprint** if prompted, and select
