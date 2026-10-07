@@ -1,0 +1,2137 @@
+{
+  "source": "NMC/UGMEB NEET (UG) 2026, notice dated 22-12-2025",
+  "derivedFrom": "Live NEET Master Tracker reference app inspected on 2026-10-07",
+  "subjects": [
+    {
+      "slug": "biology",
+      "name": "Biology",
+      "order": 3,
+      "units": [
+        {
+          "id": "biology-u1",
+          "name": "Diversity in Living World",
+          "syllabusPages": "p.12",
+          "order": 1,
+          "topics": [
+            {
+              "id": "biology-u1-t1",
+              "name": "What is living?; Biodiversity; Need for classification; Taxonomy & Systematics; Concept of species and taxonomical hierarchy; Binomial nomenclature",
+              "order": 1
+            },
+            {
+              "id": "biology-u1-t2",
+              "name": "Five kingdom classification; salient features and classification of Monera; Protista and Fungi into major groups; Lichens; Viruses and Viroids",
+              "order": 2
+            },
+            {
+              "id": "biology-u1-t3",
+              "name": "Salient features and classification of plants into major groups - Algae, Bryophytes, Pteridophytes, Gymnosperms (three to five salient and distinguishing features and at least two examples of each category)",
+              "order": 3
+            },
+            {
+              "id": "biology-u1-t4",
+              "name": "Salient features and classification of animals - nonchordate up to phyla level and chordate up to classes level (three to five salient features and at least two examples)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "id": "biology-u2",
+          "name": "Structural Organisation in Animals and Plants",
+          "syllabusPages": "p.12",
+          "order": 2,
+          "topics": [
+            {
+              "id": "biology-u2-t1",
+              "name": "Morphology and modifications; Tissues",
+              "order": 1
+            },
+            {
+              "id": "biology-u2-t2",
+              "name": "Anatomy and functions of different parts of flowering plants: Root, stem, leaf, inflorescence - cymose and racemose, flower, fruit and seed (to be dealt along with the relevant practical of the Practical Syllabus)",
+              "order": 2
+            },
+            {
+              "id": "biology-u2-t3",
+              "name": "Family (Malvaceae, Cruciferae, Leguminosae, Compositae, Gramineae)",
+              "order": 3
+            },
+            {
+              "id": "biology-u2-t4",
+              "name": "Animal tissues",
+              "order": 4
+            },
+            {
+              "id": "biology-u2-t5",
+              "name": "Morphology, anatomy and functions of different systems (digestive, circulatory, respiratory, nervous and reproductive) of an insect (Frog) (Brief account only)",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "id": "biology-u3",
+          "name": "Cell Structure and Function",
+          "syllabusPages": "p.12",
+          "order": 3,
+          "topics": [
+            {
+              "id": "biology-u3-t1",
+              "name": "Cell theory and cell as the basic unit of life; Structure of prokaryotic and eukaryotic cell; Plant cell and animal cell",
+              "order": 1
+            },
+            {
+              "id": "biology-u3-t2",
+              "name": "Cell envelope, cell membrane, cell wall",
+              "order": 2
+            },
+            {
+              "id": "biology-u3-t3",
+              "name": "Cell organelles - structure and function; Endomembrane system - endoplasmic reticulum, Golgi bodies, lysosomes, vacuoles; mitochondria, ribosomes, plastids, micro bodies",
+              "order": 3
+            },
+            {
+              "id": "biology-u3-t4",
+              "name": "Cytoskeleton, cilia, flagella, centrioles (ultra structure and function)",
+              "order": 4
+            },
+            {
+              "id": "biology-u3-t5",
+              "name": "Nucleus - nuclear membrane, chromatin, nucleolus",
+              "order": 5
+            },
+            {
+              "id": "biology-u3-t6",
+              "name": "Chemical constituents of living cells: Biomolecules - structure and function of proteins, carbohydrates, lipids, nucleic acids",
+              "order": 6
+            },
+            {
+              "id": "biology-u3-t7",
+              "name": "Enzymes - types, properties, enzyme action, classification and nomenclature of enzymes",
+              "order": 7
+            },
+            {
+              "id": "biology-u3-t8",
+              "name": "Cell division: Cell cycle, mitosis, meiosis and their significance",
+              "order": 8
+            }
+          ]
+        },
+        {
+          "id": "biology-u4",
+          "name": "Plant Physiology",
+          "syllabusPages": "p.12-13",
+          "order": 4,
+          "topics": [
+            {
+              "id": "biology-u4-t1",
+              "name": "Photosynthesis: Photosynthesis as a means of Autotrophic nutrition; Site of photosynthesis take place; pigments involved in Photosynthesis (Elementary idea)",
+              "order": 1
+            },
+            {
+              "id": "biology-u4-t2",
+              "name": "Photochemical and biosynthetic phases of photosynthesis; Cyclic and non-cyclic photophosphorylation; Chemiosmotic hypothesis",
+              "order": 2
+            },
+            {
+              "id": "biology-u4-t3",
+              "name": "Photorespiration; C3 and C4 pathways; Factors affecting photosynthesis",
+              "order": 3
+            },
+            {
+              "id": "biology-u4-t4",
+              "name": "Respiration: Exchange gases; Cellular respiration - glycolysis, fermentation (anaerobic), TCA cycle and electron transport system (aerobic)",
+              "order": 4
+            },
+            {
+              "id": "biology-u4-t5",
+              "name": "Energy relations - Number of ATP molecules generated; Amphibolic pathways; Respiratory quotient",
+              "order": 5
+            },
+            {
+              "id": "biology-u4-t6",
+              "name": "Plant growth and development: Seed germination; Phases of Plant growth and plant growth rate; Conditions of growth",
+              "order": 6
+            },
+            {
+              "id": "biology-u4-t7",
+              "name": "Differentiation, dedifferentiation and redifferentiation; Sequence of developmental process in a plant cell",
+              "order": 7
+            },
+            {
+              "id": "biology-u4-t8",
+              "name": "Growth regulators - auxin, gibberellin, cytokinin, ethylene, ABA",
+              "order": 8
+            }
+          ]
+        },
+        {
+          "id": "biology-u5",
+          "name": "Human Physiology",
+          "syllabusPages": "p.13",
+          "order": 5,
+          "topics": [
+            {
+              "id": "biology-u5-t1",
+              "name": "Breathing and Respiration: Respiratory organs in animals (recall only); Respiratory system in humans",
+              "order": 1
+            },
+            {
+              "id": "biology-u5-t2",
+              "name": "Mechanism of breathing and its regulation in humans - Exchange of gases, transport of gases and regulation of respiration; Respiratory volumes",
+              "order": 2
+            },
+            {
+              "id": "biology-u5-t3",
+              "name": "Disorders related to respiration - Asthma, Emphysema, Occupational respiratory disorders",
+              "order": 3
+            },
+            {
+              "id": "biology-u5-t4",
+              "name": "Body fluids and circulation: Composition of blood, blood groups, coagulation of blood; Composition of lymph and its function",
+              "order": 4
+            },
+            {
+              "id": "biology-u5-t5",
+              "name": "Human circulatory system - Structure of human heart and blood vessels; Cardiac cycle, cardiac output, ECG, Double circulation; Regulation of cardiac activity",
+              "order": 5
+            },
+            {
+              "id": "biology-u5-t6",
+              "name": "Disorders of circulatory system - Hypertension, Coronary artery disease, Angina pectoris, Heart failure",
+              "order": 6
+            },
+            {
+              "id": "biology-u5-t7",
+              "name": "Excretory products and their elimination: Modes of excretion - Ammonotelism, ureotelism, uricotelism; Human excretory system - structure and function",
+              "order": 7
+            },
+            {
+              "id": "biology-u5-t8",
+              "name": "Urine formation, Osmoregulation; Regulation of kidney function - Renin-angiotensin, Atrial Natriuretic Factor, ADH and Diabetes insipidus; Role of other organs in excretion",
+              "order": 8
+            },
+            {
+              "id": "biology-u5-t9",
+              "name": "Disorders: Uraemia, Renal failure, Renal calculi, Nephritis; Dialysis and artificial kidney",
+              "order": 9
+            },
+            {
+              "id": "biology-u5-t10",
+              "name": "Locomotion and Movement: Types of movement - ciliary, flagellar, muscular; Skeletal muscle - contractile proteins and muscle contraction",
+              "order": 10
+            },
+            {
+              "id": "biology-u5-t11",
+              "name": "Skeletal system and its functions (to be dealt with the relevant practical of Practical syllabus); Joints",
+              "order": 11
+            },
+            {
+              "id": "biology-u5-t12",
+              "name": "Disorders of muscular and skeletal system - Myasthenia gravis, Tetany, Muscular dystrophy, Arthritis, Osteoporosis, Gout",
+              "order": 12
+            },
+            {
+              "id": "biology-u5-t13",
+              "name": "Neural control and coordination: Neuron and nerves; Nervous system in humans - central nervous system, peripheral nervous system and visceral nervous system",
+              "order": 13
+            },
+            {
+              "id": "biology-u5-t14",
+              "name": "Generation and conduction of nerve impulse",
+              "order": 14
+            },
+            {
+              "id": "biology-u5-t15",
+              "name": "Chemical coordination and regulation: Endocrine glands and hormones; Human endocrine system - Hypothalamus, Pituitary, Pineal, Thyroid, Parathyroid, Adrenal, Pancreas, Gonads",
+              "order": 15
+            },
+            {
+              "id": "biology-u5-t16",
+              "name": "Mechanism of hormone action (Elementary Idea); Role of hormones as messengers and regulators",
+              "order": 16
+            },
+            {
+              "id": "biology-u5-t17",
+              "name": "Hypo- and hyperactivity and related disorders (Common disorders e.g. Dwarfism, Acromegaly, Cretinism, goiter, exophthalmic goiter, diabetes, Addison's disease) (Imp: Diseases and disorders mentioned above to be dealt in brief.)",
+              "order": 17
+            }
+          ]
+        },
+        {
+          "id": "biology-u6",
+          "name": "Reproduction",
+          "syllabusPages": "p.14",
+          "order": 6,
+          "topics": [
+            {
+              "id": "biology-u6-t1",
+              "name": "Sexual reproduction in flowering plants: Flower structure; Development of male and female gametophytes",
+              "order": 1
+            },
+            {
+              "id": "biology-u6-t2",
+              "name": "Pollination - types, agencies and examples; Outbreeding devices; Pollen-Pistil interaction",
+              "order": 2
+            },
+            {
+              "id": "biology-u6-t3",
+              "name": "Double fertilization; Post fertilization events - Development of endosperm and embryo, Development of seed and formation of fruit",
+              "order": 3
+            },
+            {
+              "id": "biology-u6-t4",
+              "name": "Special modes - apomixis, parthenocarpy, polyembryony; Significance of seed and fruit formation",
+              "order": 4
+            },
+            {
+              "id": "biology-u6-t5",
+              "name": "Human Reproduction: Male and female reproductive systems; Microscopic anatomy of testis and ovary",
+              "order": 5
+            },
+            {
+              "id": "biology-u6-t6",
+              "name": "Gametogenesis - spermatogenesis & oogenesis; Menstrual cycle",
+              "order": 6
+            },
+            {
+              "id": "biology-u6-t7",
+              "name": "Fertilisation, embryo development up to blastocyst formation, implantation",
+              "order": 7
+            },
+            {
+              "id": "biology-u6-t8",
+              "name": "Pregnancy and placenta formation (Elementary idea); Parturition (Elementary idea); Lactation (Elementary idea)",
+              "order": 8
+            },
+            {
+              "id": "biology-u6-t9",
+              "name": "Reproductive health: Need for reproductive health and prevention of sexually transmitted diseases (STD)",
+              "order": 9
+            },
+            {
+              "id": "biology-u6-t10",
+              "name": "Birth control - Need and Methods, Contraception and Medical Termination of Pregnancy (MTP); Amniocentesis",
+              "order": 10
+            },
+            {
+              "id": "biology-u6-t11",
+              "name": "Infertility and assisted reproductive technologies - IVF, ZIFT, GIFT (Elementary idea for general awareness)",
+              "order": 11
+            }
+          ]
+        },
+        {
+          "id": "biology-u7",
+          "name": "Genetics and Evolution",
+          "syllabusPages": "p.14",
+          "order": 7,
+          "topics": [
+            {
+              "id": "biology-u7-t1",
+              "name": "Heredity and variation: Mendelian Inheritance; Deviations from Mendelism - Incomplete dominance, Co-dominance, Multiple alleles and Inheritance of blood groups, Pleiotropy; Elementary idea of polygenic inheritance",
+              "order": 1
+            },
+            {
+              "id": "biology-u7-t2",
+              "name": "Chromosome theory of inheritance; Chromosomes and genes; Sex determination - In humans, birds, honey bee",
+              "order": 2
+            },
+            {
+              "id": "biology-u7-t3",
+              "name": "Linkage and crossing over; Sex linked inheritance - Haemophilia, Colour blindness",
+              "order": 3
+            },
+            {
+              "id": "biology-u7-t4",
+              "name": "Mendelian disorders in humans - Thalassemia; Chromosomal disorders in humans; Down's syndrome, Turner's and Klinefelter's syndromes",
+              "order": 4
+            },
+            {
+              "id": "biology-u7-t5",
+              "name": "Molecular basis of Inheritance: Search for genetic material and DNA as genetic material; Structure of DNA and RNA; DNA packaging",
+              "order": 5
+            },
+            {
+              "id": "biology-u7-t6",
+              "name": "DNA replication; Central dogma; Transcription, genetic code, translation",
+              "order": 6
+            },
+            {
+              "id": "biology-u7-t7",
+              "name": "Gene expression and regulation - Lac Operon; Genome and human genome project; DNA finger printing, protein biosynthesis",
+              "order": 7
+            },
+            {
+              "id": "biology-u7-t8",
+              "name": "Evolution: Origin of life; Biological evolution and evidences for biological evolution from Paleontology, comparative anatomy, embryology and molecular evidence",
+              "order": 8
+            },
+            {
+              "id": "biology-u7-t9",
+              "name": "Darwin's contribution, Modern Synthetic theory of Evolution; Mechanism of evolution - Variation (Mutation and Recombination) and Natural Selection with examples, types of natural selection",
+              "order": 9
+            },
+            {
+              "id": "biology-u7-t10",
+              "name": "Gene flow and genetic drift; Hardy-Weinberg's principle; Adaptive Radiation; Human evolution",
+              "order": 10
+            }
+          ]
+        },
+        {
+          "id": "biology-u8",
+          "name": "Biology and Human Welfare",
+          "syllabusPages": "p.14-15",
+          "order": 8,
+          "topics": [
+            {
+              "id": "biology-u8-t1",
+              "name": "Health and Disease; Pathogens; parasites causing human diseases (Malaria, Filariasis, Ascariasis, Typhoid, Pneumonia, common cold, amoebiasis, ring worm, dengue, chikungunya)",
+              "order": 1
+            },
+            {
+              "id": "biology-u8-t2",
+              "name": "Basic concepts of immunology - vaccines; Cancer, HIV and AIDS",
+              "order": 2
+            },
+            {
+              "id": "biology-u8-t3",
+              "name": "Adolescence, drug and alcohol abuse, Tobacco abuse",
+              "order": 3
+            },
+            {
+              "id": "biology-u8-t4",
+              "name": "Microbes in human welfare: In household food processing, industrial production, sewage treatment, energy generation and as biocontrol agents and biofertilizers",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "id": "biology-u9",
+          "name": "Biotechnology and Its Applications",
+          "syllabusPages": "p.15",
+          "order": 9,
+          "topics": [
+            {
+              "id": "biology-u9-t1",
+              "name": "Principles and process of Biotechnology: Genetic engineering (Recombinant DNA technology)",
+              "order": 1
+            },
+            {
+              "id": "biology-u9-t2",
+              "name": "Application of Biotechnology in health and agriculture: Human insulin and vaccine production, gene therapy",
+              "order": 2
+            },
+            {
+              "id": "biology-u9-t3",
+              "name": "Genetically modified organisms - Bt crops; Transgenic Animals; Biosafety issues - Biopiracy and patents",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "id": "biology-u10",
+          "name": "Ecology and Environment",
+          "syllabusPages": "p.15",
+          "order": 10,
+          "topics": [
+            {
+              "id": "biology-u10-t1",
+              "name": "Organisms and environment: Population interactions - mutualism, competition, predation, parasitism; Population attributes - growth, birth rate and death rate, age distribution",
+              "order": 1
+            },
+            {
+              "id": "biology-u10-t2",
+              "name": "Ecosystem: Patterns, components; productivity and decomposition; Energy flow; Pyramids of number, biomass, energy",
+              "order": 2
+            },
+            {
+              "id": "biology-u10-t3",
+              "name": "Biodiversity and its conservation: Concept of Biodiversity; Patterns of Biodiversity; Importance of Biodiversity; Loss of Biodiversity",
+              "order": 3
+            },
+            {
+              "id": "biology-u10-t4",
+              "name": "Biodiversity conservation; Hotspots, endangered organisms, extinction, Red Data Book, biosphere reserves, National parks and sanctuaries, Sacred Groves",
+              "order": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Chemistry",
+      "order": 2,
+      "units": [
+        {
+          "id": "chemistry-u1",
+          "name": "Some Basic Concepts in Chemistry",
+          "syllabusPages": "p.6",
+          "order": 1,
+          "topics": [
+            {
+              "id": "chemistry-u1-t1",
+              "name": "Matter and its nature",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u1-t2",
+              "name": "Dalton's atomic theory: Concept of atom, molecule, element, and compound",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u1-t3",
+              "name": "Laws of chemical combination",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u1-t4",
+              "name": "Atomic and molecular masses, mole concept, molar mass, percentage composition, empirical and molecular formulae",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u1-t5",
+              "name": "Chemical equations and stoichiometry",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u2",
+          "name": "Atomic Structure",
+          "syllabusPages": "p.6",
+          "order": 2,
+          "topics": [
+            {
+              "id": "chemistry-u2-t1",
+              "name": "Nature of electromagnetic radiation, photoelectric effect; Spectrum of the hydrogen atom",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u2-t2",
+              "name": "Bohr model of a hydrogen atom - its postulates, derivation of the relations for the energy of the electron and radii of the different orbits, limitations of Bohr's model",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u2-t3",
+              "name": "Dual nature of matter, de Broglie's relationship",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u2-t4",
+              "name": "Heisenberg uncertainty principle",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u2-t5",
+              "name": "Elementary ideas of quantum mechanics, the quantum mechanical model of the atom, its important features",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u2-t6",
+              "name": "Concept of atomic orbitals as one-electron wave functions: Variation of ψ and ψ² with r for 1s and 2s orbitals",
+              "order": 6
+            },
+            {
+              "id": "chemistry-u2-t7",
+              "name": "Various quantum numbers (principal, angular momentum, and magnetic quantum numbers) and their significance; shapes of s, p, and d-orbitals, electron spin and spin quantum number",
+              "order": 7
+            },
+            {
+              "id": "chemistry-u2-t8",
+              "name": "Rules for filling electrons in orbitals – Aufbau principle, Pauli's exclusion principle and Hund's rule",
+              "order": 8
+            },
+            {
+              "id": "chemistry-u2-t9",
+              "name": "Electronic configuration of elements, extra stability of half-filled and completely filled orbitals",
+              "order": 9
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u3",
+          "name": "Chemical Bonding and Molecular Structure",
+          "syllabusPages": "p.6",
+          "order": 3,
+          "topics": [
+            {
+              "id": "chemistry-u3-t1",
+              "name": "Kossel-Lewis approach to chemical bond formation, the concept of ionic and covalent bonds",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u3-t2",
+              "name": "Ionic Bonding: Formation of ionic bonds, factors affecting the formation of ionic bonds; calculation of lattice enthalpy",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u3-t3",
+              "name": "Covalent Bonding: Concept of electronegativity, Fajan's rule, dipole moment",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u3-t4",
+              "name": "Valence Shell Electron Pair Repulsion (VSEPR) theory and shapes of simple molecules",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u3-t5",
+              "name": "Quantum mechanical approach to covalent bonding: Valence bond theory - its important features, the concept of hybridization involving s, p, and d orbitals; Resonance",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u3-t6",
+              "name": "Molecular Orbital Theory - its important features, LCAOs, types of molecular orbitals (bonding, antibonding), sigma and pi-bonds",
+              "order": 6
+            },
+            {
+              "id": "chemistry-u3-t7",
+              "name": "Molecular orbital electronic configurations of homonuclear diatomic molecules, the concept of bond order, bond length, and bond energy",
+              "order": 7
+            },
+            {
+              "id": "chemistry-u3-t8",
+              "name": "Elementary idea of metallic bonding",
+              "order": 8
+            },
+            {
+              "id": "chemistry-u3-t9",
+              "name": "Hydrogen bonding and its applications",
+              "order": 9
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u4",
+          "name": "Chemical Thermodynamics",
+          "syllabusPages": "p.6-7",
+          "order": 4,
+          "topics": [
+            {
+              "id": "chemistry-u4-t1",
+              "name": "Fundamentals of thermodynamics: System and surroundings, extensive and intensive properties, state functions, types of processes",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u4-t2",
+              "name": "The first law of thermodynamics - Concept of work, heat, internal energy and enthalpy, heat capacity, molar heat capacity",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u4-t3",
+              "name": "Hess's law of constant heat summation",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u4-t4",
+              "name": "Enthalpies of bond dissociation, combustion, formation, atomization, sublimation, phase transition, hydration, ionization, and solution",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u4-t5",
+              "name": "The second law of thermodynamics - Spontaneity of processes; ΔS of the universe and ΔG of the system as criteria for spontaneity",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u4-t6",
+              "name": "ΔG° (Standard Gibbs energy change) and equilibrium constant",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u5",
+          "name": "Solutions",
+          "syllabusPages": "p.7",
+          "order": 5,
+          "topics": [
+            {
+              "id": "chemistry-u5-t1",
+              "name": "Different methods for expressing the concentration of solution - molality, molarity, mole fraction, percentage (by volume and mass both)",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u5-t2",
+              "name": "The vapour pressure of solutions and Raoult's Law - Ideal and non-ideal solutions, vapour pressure-composition plots for ideal and non-ideal solutions",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u5-t3",
+              "name": "Colligative properties of dilute solutions - a relative lowering of vapour pressure, depression of freezing point, the elevation of boiling point and osmotic pressure",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u5-t4",
+              "name": "Determination of molecular mass using colligative properties",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u5-t5",
+              "name": "Abnormal value of molar mass, van't Hoff factor and its significance",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u6",
+          "name": "Equilibrium",
+          "syllabusPages": "p.7",
+          "order": 6,
+          "topics": [
+            {
+              "id": "chemistry-u6-t1",
+              "name": "Meaning of equilibrium, the concept of dynamic equilibrium",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u6-t2",
+              "name": "Equilibria involving physical processes: Solid-liquid, liquid-gas and solid-gas equilibria, Henry's law",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u6-t3",
+              "name": "General characteristics of equilibrium involving physical processes",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u6-t4",
+              "name": "Equilibrium involving chemical processes: Law of chemical equilibrium, equilibrium constants (Kp and Kc) and their significance",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u6-t5",
+              "name": "The significance of ΔG and ΔG° in chemical equilibrium",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u6-t6",
+              "name": "Factors affecting equilibrium: concentration, pressure, temperature, the effect of catalyst; Le Chatelier's principle",
+              "order": 6
+            },
+            {
+              "id": "chemistry-u6-t7",
+              "name": "Ionic equilibrium: Weak and strong electrolytes, ionization of electrolytes",
+              "order": 7
+            },
+            {
+              "id": "chemistry-u6-t8",
+              "name": "Various concepts of acids and bases (Arrhenius, Bronsted-Lowry and Lewis) and their ionization",
+              "order": 8
+            },
+            {
+              "id": "chemistry-u6-t9",
+              "name": "Acid-base equilibria (including multistage ionization) and ionization constants, ionization of water, pH scale",
+              "order": 9
+            },
+            {
+              "id": "chemistry-u6-t10",
+              "name": "Common ion effect, hydrolysis of salts and pH of their solutions",
+              "order": 10
+            },
+            {
+              "id": "chemistry-u6-t11",
+              "name": "The solubility of sparingly soluble salts and solubility products, buffer solutions",
+              "order": 11
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u7",
+          "name": "Redox Reactions and Electrochemistry",
+          "syllabusPages": "p.7",
+          "order": 7,
+          "topics": [
+            {
+              "id": "chemistry-u7-t1",
+              "name": "Electronic concepts of oxidation and reduction, redox reactions, oxidation number, rules for assigning oxidation number, balancing of redox reactions",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u7-t2",
+              "name": "Electrolytic and metallic conduction, conductance in electrolytic solutions, molar conductivities and their variation with concentration",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u7-t3",
+              "name": "Kohlrausch's law and its applications",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u7-t4",
+              "name": "Electrochemical cells - Electrolytic and Galvanic cells, different types of electrodes, electrode potentials including standard electrode potential, half-cell and cell reactions",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u7-t5",
+              "name": "Emf of a Galvanic cell and its measurement; Nernst equation and its applications",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u7-t6",
+              "name": "Relationship between cell potential and Gibbs' energy change",
+              "order": 6
+            },
+            {
+              "id": "chemistry-u7-t7",
+              "name": "Dry cell and lead accumulator; Fuel cells",
+              "order": 7
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u8",
+          "name": "Chemical Kinetics",
+          "syllabusPages": "p.7-8",
+          "order": 8,
+          "topics": [
+            {
+              "id": "chemistry-u8-t1",
+              "name": "Rate of a chemical reaction, factors affecting the rate of reactions: concentration, temperature, pressure, and catalyst",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u8-t2",
+              "name": "Elementary and complex reactions, order and molecularity of reactions",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u8-t3",
+              "name": "Rate law, rate constant and its units",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u8-t4",
+              "name": "Differential and integral forms of zero and first-order reactions, their characteristics and half-lives",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u8-t5",
+              "name": "The effect of temperature on the rate of reactions, Arrhenius theory, activation energy and its calculation",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u8-t6",
+              "name": "Collision theory of bimolecular gaseous reactions (no derivation)",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u9",
+          "name": "Classification of Elements and Periodicity in Properties",
+          "syllabusPages": "p.8",
+          "order": 9,
+          "topics": [
+            {
+              "id": "chemistry-u9-t1",
+              "name": "Modern periodic law and present form of the periodic table, s, p, d and f block elements",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u9-t2",
+              "name": "Periodic trends in properties of elements: atomic and ionic radii, ionization enthalpy, electron gain enthalpy, valence, oxidation states, and chemical reactivity",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u10",
+          "name": "P-Block Elements",
+          "syllabusPages": "p.8",
+          "order": 10,
+          "topics": [
+            {
+              "id": "chemistry-u10-t1",
+              "name": "Group-13 to Group 18 Elements: General Introduction",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u10-t2",
+              "name": "Electronic configuration and general trends in physical and chemical properties of elements across the periods and down the groups",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u10-t3",
+              "name": "Unique behaviour of the first element in each group",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u11",
+          "name": "d- and f-Block Elements",
+          "syllabusPages": "p.8",
+          "order": 11,
+          "topics": [
+            {
+              "id": "chemistry-u11-t1",
+              "name": "Transition Elements: General introduction, electronic configuration, occurrence and characteristics",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u11-t2",
+              "name": "General trends in properties of the first-row transition elements - physical properties, ionization enthalpy, oxidation states, atomic radii, colour, catalytic behaviour, magnetic properties, complex formation, interstitial compounds, alloy formation",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u11-t3",
+              "name": "Preparation, properties, and uses of K2Cr2O7 and KMnO4",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u11-t4",
+              "name": "Inner Transition Elements - Lanthanoids: Electronic configuration, oxidation states, and lanthanoid contraction",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u11-t5",
+              "name": "Inner Transition Elements - Actinoids: Electronic configuration and oxidation states",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u12",
+          "name": "Co-ordination Compounds",
+          "syllabusPages": "p.8",
+          "order": 12,
+          "topics": [
+            {
+              "id": "chemistry-u12-t1",
+              "name": "Introduction to coordination compounds, Werner's theory; ligands, coordination number, denticity, chelation",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u12-t2",
+              "name": "IUPAC nomenclature of mononuclear co-ordination compounds, isomerism",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u12-t3",
+              "name": "Bonding - Valence bond approach and basic ideas of Crystal field theory, colour and magnetic properties",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u12-t4",
+              "name": "Importance of co-ordination compounds (in qualitative analysis, extraction of metals and in biological systems)",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u13",
+          "name": "Purification and Characterisation of Organic Compounds",
+          "syllabusPages": "p.8-9",
+          "order": 13,
+          "topics": [
+            {
+              "id": "chemistry-u13-t1",
+              "name": "Purification - Crystallization, sublimation, distillation, differential extraction, and chromatography - principles and their applications",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u13-t2",
+              "name": "Qualitative analysis - Detection of nitrogen, sulphur, phosphorus, and halogens",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u13-t3",
+              "name": "Quantitative analysis (basic principles only) - Estimation of carbon, hydrogen, nitrogen, halogens, sulphur, phosphorus",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u13-t4",
+              "name": "Calculations of empirical formulae and molecular formulae; Numerical problems in organic quantitative analysis",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u14",
+          "name": "Some Basic Principles of Organic Chemistry",
+          "syllabusPages": "p.9",
+          "order": 14,
+          "topics": [
+            {
+              "id": "chemistry-u14-t1",
+              "name": "Tetravalency of carbon: Shapes of simple molecules - hybridization (s and p)",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u14-t2",
+              "name": "Classification of organic compounds based on functional groups: and those containing halogens, oxygen, nitrogen, and sulphur; Homologous series",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u14-t3",
+              "name": "Isomerism - structural and stereoisomerism",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u14-t4",
+              "name": "Nomenclature (Trivial and IUPAC)",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u14-t5",
+              "name": "Covalent bond fission - Homolytic and heterolytic: free radicals, carbocations, and carbanions; stability of carbocations and free radicals, electrophiles, and nucleophiles",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u14-t6",
+              "name": "Electronic displacement in a covalent bond - Inductive effect, electromeric effect, resonance, and hyperconjugation",
+              "order": 6
+            },
+            {
+              "id": "chemistry-u14-t7",
+              "name": "Common types of organic reactions - Substitution, addition, elimination, and rearrangement",
+              "order": 7
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u15",
+          "name": "Hydrocarbons",
+          "syllabusPages": "p.9",
+          "order": 15,
+          "topics": [
+            {
+              "id": "chemistry-u15-t1",
+              "name": "Classification, isomerism, IUPAC nomenclature, general methods of preparation, properties, and reactions",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u15-t2",
+              "name": "Alkanes - Conformations: Sawhorse and Newman projections (of ethane); Mechanism of halogenation of alkanes",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u15-t3",
+              "name": "Alkenes - Geometrical isomerism; Mechanism of electrophilic addition: addition of hydrogen, halogens, water, hydrogen halides (Markownikoff's and peroxide effect); Ozonolysis and polymerization",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u15-t4",
+              "name": "Alkynes - Acidic character; Addition of hydrogen, halogens, water, and hydrogen halides; Polymerization",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u15-t5",
+              "name": "Aromatic hydrocarbons - Nomenclature, benzene - structure and aromaticity",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u15-t6",
+              "name": "Mechanism of electrophilic substitution: halogenation, nitration, Friedel-Craft's alkylation and acylation, directive influence of the functional group in mono-substituted benzene",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u16",
+          "name": "Organic Compounds Containing Halogens",
+          "syllabusPages": "p.9",
+          "order": 16,
+          "topics": [
+            {
+              "id": "chemistry-u16-t1",
+              "name": "General methods of preparation, properties, and reactions",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u16-t2",
+              "name": "Nature of C-X bond; Mechanisms of substitution reactions",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u16-t3",
+              "name": "Uses; Environmental effects of chloroform, iodoform, freons, and DDT",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u17",
+          "name": "Organic Compounds Containing Oxygen",
+          "syllabusPages": "p.9-10",
+          "order": 17,
+          "topics": [
+            {
+              "id": "chemistry-u17-t1",
+              "name": "General methods of preparation, properties, reactions, and uses",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u17-t2",
+              "name": "Alcohols: Identification of primary, secondary, and tertiary alcohols; mechanism of dehydration",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u17-t3",
+              "name": "Phenols: Acidic nature, electrophilic substitution reactions: halogenation, nitration and sulphonation; Reimer-Tiemann reaction",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u17-t4",
+              "name": "Ethers: Structure",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u17-t5",
+              "name": "Aldehyde and Ketones: Nature of carbonyl group; Nucleophilic addition to >C=O group, relative reactivities of aldehydes and ketones",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u17-t6",
+              "name": "Important reactions such as - Nucleophilic addition reactions (addition of HCN, NH3, and its derivatives), Grignard reagent; oxidation; reduction (Wolf Kishner and Clemmensen)",
+              "order": 6
+            },
+            {
+              "id": "chemistry-u17-t7",
+              "name": "The acidity of α-hydrogen, aldol condensation, Cannizzaro reaction, Haloform reaction",
+              "order": 7
+            },
+            {
+              "id": "chemistry-u17-t8",
+              "name": "Chemical tests to distinguish between aldehydes and Ketones",
+              "order": 8
+            },
+            {
+              "id": "chemistry-u17-t9",
+              "name": "Carboxylic Acids: Acidic strength and factors affecting it",
+              "order": 9
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u18",
+          "name": "Organic Compounds Containing Nitrogen",
+          "syllabusPages": "p.10",
+          "order": 18,
+          "topics": [
+            {
+              "id": "chemistry-u18-t1",
+              "name": "General methods of preparation, properties, reactions, and uses",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u18-t2",
+              "name": "Amines: Nomenclature, classification structure, basic character, and identification of primary, secondary, and tertiary amines and their basic character",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u18-t3",
+              "name": "Diazonium Salts: Importance in synthetic organic chemistry",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u19",
+          "name": "Biomolecules",
+          "syllabusPages": "p.10",
+          "order": 19,
+          "topics": [
+            {
+              "id": "chemistry-u19-t1",
+              "name": "General introduction and importance of biomolecules",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u19-t2",
+              "name": "Carbohydrates - Classification; aldoses and ketoses; monosaccharides (glucose and fructose) and constituent monosaccharides of oligosaccharides (sucrose, lactose, and maltose)",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u19-t3",
+              "name": "Proteins - Elementary Idea of α-amino acids, peptide bond, polypeptides. Proteins: primary, secondary, tertiary, and quaternary structure (qualitative idea only), denaturation of proteins, enzymes",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u19-t4",
+              "name": "Vitamins - Classification and functions",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u19-t5",
+              "name": "Nucleic Acids - Chemical constitution of DNA and RNA; Biological functions of nucleic acids",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u19-t6",
+              "name": "Hormones (General introduction)",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "id": "chemistry-u20",
+          "name": "Principles Related to Practical Chemistry",
+          "syllabusPages": "p.10-11",
+          "order": 20,
+          "topics": [
+            {
+              "id": "chemistry-u20-t1",
+              "name": "Detection of extra elements (Nitrogen, Sulphur, halogens) in organic compounds",
+              "order": 1
+            },
+            {
+              "id": "chemistry-u20-t2",
+              "name": "Detection of the following functional groups; hydroxyl (alcoholic and phenolic), carbonyl (aldehyde and ketones), carboxyl, and amino groups in organic compounds",
+              "order": 2
+            },
+            {
+              "id": "chemistry-u20-t3",
+              "name": "The chemistry involved in the preparation of the following: Inorganic compounds; Mohr's salt, potash alum",
+              "order": 3
+            },
+            {
+              "id": "chemistry-u20-t4",
+              "name": "The chemistry involved in the preparation of the following: Organic compounds: Acetanilide, p-nitro acetanilide, aniline yellow, iodoform",
+              "order": 4
+            },
+            {
+              "id": "chemistry-u20-t5",
+              "name": "The chemistry involved in the titrimetric exercises – Acids, bases and the use of indicators, oxalic acid vs KMnO4, Mohr's salt vs KMnO4",
+              "order": 5
+            },
+            {
+              "id": "chemistry-u20-t6",
+              "name": "Chemical principles involved in the qualitative salt analysis: Cations – Pb2+, Cu2+, Al3+, Fe3+, Zn2+, Ni2+, Ca2+, Ba2+, Mg2+, NH4+",
+              "order": 6
+            },
+            {
+              "id": "chemistry-u20-t7",
+              "name": "Chemical principles involved in the qualitative salt analysis: Anions – CO3 2−, S2−, SO4 2−, NO3−, NO2−, Cl−, Br−, I− (Insoluble salts excluded)",
+              "order": 7
+            },
+            {
+              "id": "chemistry-u20-t8",
+              "name": "Chemical principles involved in the following experiments: Enthalpy of solution of CuSO4",
+              "order": 8
+            },
+            {
+              "id": "chemistry-u20-t9",
+              "name": "Chemical principles involved in the following experiments: Enthalpy of neutralization of strong acid and strong base",
+              "order": 9
+            },
+            {
+              "id": "chemistry-u20-t10",
+              "name": "Chemical principles involved in the following experiments: Preparation of lyophilic and lyophobic sols",
+              "order": 10
+            },
+            {
+              "id": "chemistry-u20-t11",
+              "name": "Chemical principles involved in the following experiments: Kinetic study of the reaction of iodide ions with hydrogen peroxide at room temperature",
+              "order": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "physics",
+      "name": "Physics",
+      "order": 1,
+      "units": [
+        {
+          "id": "physics-u1",
+          "name": "Physics and Measurement",
+          "syllabusPages": "p.1",
+          "order": 1,
+          "topics": [
+            {
+              "id": "physics-u1-t1",
+              "name": "Units of measurements, System of Units, S I Units, fundamental and derived units",
+              "order": 1
+            },
+            {
+              "id": "physics-u1-t2",
+              "name": "Least count, significant figures",
+              "order": 2
+            },
+            {
+              "id": "physics-u1-t3",
+              "name": "Errors in measurements",
+              "order": 3
+            },
+            {
+              "id": "physics-u1-t4",
+              "name": "Dimensions of Physics quantities, dimensional analysis, and its applications",
+              "order": 4
+            },
+            {
+              "id": "physics-u1-t5",
+              "name": "Basic Mathematics",
+              "order": 5
+            },
+            {
+              "id": "physics-u1-t6",
+              "name": "Vectors",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "id": "physics-u2",
+          "name": "Kinematics",
+          "syllabusPages": "p.1",
+          "order": 2,
+          "topics": [
+            {
+              "id": "physics-u2-t1",
+              "name": "The frame of reference, motion in a straight line",
+              "order": 1
+            },
+            {
+              "id": "physics-u2-t2",
+              "name": "Position-time graph, speed and velocity",
+              "order": 2
+            },
+            {
+              "id": "physics-u2-t3",
+              "name": "Uniform and non-uniform motion, average speed and instantaneous velocity",
+              "order": 3
+            },
+            {
+              "id": "physics-u2-t4",
+              "name": "Uniformly accelerated motion, velocity-time, position-time graph, relations for uniformly accelerated motion",
+              "order": 4
+            },
+            {
+              "id": "physics-u2-t5",
+              "name": "Scalars and Vectors, Vector Addition and subtraction, scalar and vector products, Unit Vector, Resolution of a Vector",
+              "order": 5
+            },
+            {
+              "id": "physics-u2-t6",
+              "name": "Relative Velocity",
+              "order": 6
+            },
+            {
+              "id": "physics-u2-t7",
+              "name": "Motion in a plane, Projectile Motion",
+              "order": 7
+            },
+            {
+              "id": "physics-u2-t8",
+              "name": "Uniform Circular Motion",
+              "order": 8
+            }
+          ]
+        },
+        {
+          "id": "physics-u3",
+          "name": "Laws of Motion",
+          "syllabusPages": "p.1",
+          "order": 3,
+          "topics": [
+            {
+              "id": "physics-u3-t1",
+              "name": "Force and inertia, Newton's First law of motion",
+              "order": 1
+            },
+            {
+              "id": "physics-u3-t2",
+              "name": "Momentum, Newton's Second Law of motion, Impulses",
+              "order": 2
+            },
+            {
+              "id": "physics-u3-t3",
+              "name": "Newton's Third Law of motion",
+              "order": 3
+            },
+            {
+              "id": "physics-u3-t4",
+              "name": "Law of conservation of linear momentum and its applications",
+              "order": 4
+            },
+            {
+              "id": "physics-u3-t5",
+              "name": "Equilibrium of concurrent forces",
+              "order": 5
+            },
+            {
+              "id": "physics-u3-t6",
+              "name": "Static and Kinetic friction, laws of friction, rolling friction",
+              "order": 6
+            },
+            {
+              "id": "physics-u3-t7",
+              "name": "Dynamics of uniform circular motion: centripetal force and its applications: vehicle on a level circular road, vehicle on a banked road",
+              "order": 7
+            }
+          ]
+        },
+        {
+          "id": "physics-u4",
+          "name": "Work, Energy, and Power",
+          "syllabusPages": "p.1",
+          "order": 4,
+          "topics": [
+            {
+              "id": "physics-u4-t1",
+              "name": "Work done by a constant force and a variable force",
+              "order": 1
+            },
+            {
+              "id": "physics-u4-t2",
+              "name": "Kinetic and potential energies, work-energy theorem, power",
+              "order": 2
+            },
+            {
+              "id": "physics-u4-t3",
+              "name": "The potential energy of spring, conservation of mechanical energy",
+              "order": 3
+            },
+            {
+              "id": "physics-u4-t4",
+              "name": "Conservative and non-conservative forces",
+              "order": 4
+            },
+            {
+              "id": "physics-u4-t5",
+              "name": "Motion in a vertical circle",
+              "order": 5
+            },
+            {
+              "id": "physics-u4-t6",
+              "name": "Elastic and inelastic collisions in one and two dimensions",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "id": "physics-u5",
+          "name": "Rotational Motion",
+          "syllabusPages": "p.1",
+          "order": 5,
+          "topics": [
+            {
+              "id": "physics-u5-t1",
+              "name": "Centre of the mass of a two-particle system, Centre of the mass of a rigid body",
+              "order": 1
+            },
+            {
+              "id": "physics-u5-t2",
+              "name": "Basic concepts of rotational motion; moment of a force; torque",
+              "order": 2
+            },
+            {
+              "id": "physics-u5-t3",
+              "name": "Angular momentum, conservation of angular momentum and its applications",
+              "order": 3
+            },
+            {
+              "id": "physics-u5-t4",
+              "name": "The moment of inertia, the radius of gyration, values of moments of inertia for simple geometrical objects",
+              "order": 4
+            },
+            {
+              "id": "physics-u5-t5",
+              "name": "Parallel and perpendicular axes theorems, and their applications",
+              "order": 5
+            },
+            {
+              "id": "physics-u5-t6",
+              "name": "Equilibrium of rigid bodies, rigid body rotation and equations of rotational motion",
+              "order": 6
+            },
+            {
+              "id": "physics-u5-t7",
+              "name": "Comparison of linear and rotational motions",
+              "order": 7
+            }
+          ]
+        },
+        {
+          "id": "physics-u6",
+          "name": "Gravitation",
+          "syllabusPages": "p.2",
+          "order": 6,
+          "topics": [
+            {
+              "id": "physics-u6-t1",
+              "name": "The universal law of gravitation",
+              "order": 1
+            },
+            {
+              "id": "physics-u6-t2",
+              "name": "Acceleration due to gravity and its variation with altitude and depth",
+              "order": 2
+            },
+            {
+              "id": "physics-u6-t3",
+              "name": "Kepler's law of planetary motion",
+              "order": 3
+            },
+            {
+              "id": "physics-u6-t4",
+              "name": "Gravitational potential energy; gravitational potential",
+              "order": 4
+            },
+            {
+              "id": "physics-u6-t5",
+              "name": "Escape velocity",
+              "order": 5
+            },
+            {
+              "id": "physics-u6-t6",
+              "name": "Motion of a satellite, orbital velocity, time period and energy of satellite",
+              "order": 6
+            }
+          ]
+        },
+        {
+          "id": "physics-u7",
+          "name": "Properties of Solids and Liquids",
+          "syllabusPages": "p.2",
+          "order": 7,
+          "topics": [
+            {
+              "id": "physics-u7-t1",
+              "name": "Elastic behaviour, Stress-strain relationship, Hooke's Law",
+              "order": 1
+            },
+            {
+              "id": "physics-u7-t2",
+              "name": "Young's modulus, bulk modulus, modulus of rigidity",
+              "order": 2
+            },
+            {
+              "id": "physics-u7-t3",
+              "name": "Pressure due to a fluid column; Pascal's law and its applications; Effect of gravity on fluid pressure",
+              "order": 3
+            },
+            {
+              "id": "physics-u7-t4",
+              "name": "Viscosity, Stokes' law, terminal velocity, streamline and turbulent flow, critical velocity",
+              "order": 4
+            },
+            {
+              "id": "physics-u7-t5",
+              "name": "Bernoulli's principle and its applications",
+              "order": 5
+            },
+            {
+              "id": "physics-u7-t6",
+              "name": "Surface energy and surface tension, angle of contact, excess of pressure across a curved surface",
+              "order": 6
+            },
+            {
+              "id": "physics-u7-t7",
+              "name": "Application of surface tension - drops, bubbles, and capillary rise",
+              "order": 7
+            },
+            {
+              "id": "physics-u7-t8",
+              "name": "Heat, temperature, thermal expansion; specific heat capacity, calorimetry; change of state, latent heat",
+              "order": 8
+            },
+            {
+              "id": "physics-u7-t9",
+              "name": "Heat transfer - conduction, convection, and radiation",
+              "order": 9
+            }
+          ]
+        },
+        {
+          "id": "physics-u8",
+          "name": "Thermodynamics",
+          "syllabusPages": "p.2",
+          "order": 8,
+          "topics": [
+            {
+              "id": "physics-u8-t1",
+              "name": "Thermal equilibrium, zeroth law of thermodynamics, the concept of temperature",
+              "order": 1
+            },
+            {
+              "id": "physics-u8-t2",
+              "name": "Heat, work, and internal energy",
+              "order": 2
+            },
+            {
+              "id": "physics-u8-t3",
+              "name": "The first law of thermodynamics, isothermal and adiabatic processes",
+              "order": 3
+            },
+            {
+              "id": "physics-u8-t4",
+              "name": "The second law of thermodynamics: reversible and irreversible processes",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "id": "physics-u9",
+          "name": "Kinetic Theory of Gases",
+          "syllabusPages": "p.2",
+          "order": 9,
+          "topics": [
+            {
+              "id": "physics-u9-t1",
+              "name": "Equation of state of a perfect gas, work done on compressing a gas",
+              "order": 1
+            },
+            {
+              "id": "physics-u9-t2",
+              "name": "Kinetic theory of gases - assumptions, the concept of pressure",
+              "order": 2
+            },
+            {
+              "id": "physics-u9-t3",
+              "name": "Kinetic interpretation of temperature: RMS speed of gas molecules",
+              "order": 3
+            },
+            {
+              "id": "physics-u9-t4",
+              "name": "Degrees of freedom, Law of equipartition of energy and applications to specific heat capacities of gases",
+              "order": 4
+            },
+            {
+              "id": "physics-u9-t5",
+              "name": "Mean free path, Avogadro's number",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "id": "physics-u10",
+          "name": "Oscillations and Waves",
+          "syllabusPages": "p.2",
+          "order": 10,
+          "topics": [
+            {
+              "id": "physics-u10-t1",
+              "name": "Oscillations and periodic motion - time period, frequency, displacement as a function of time; Periodic functions",
+              "order": 1
+            },
+            {
+              "id": "physics-u10-t2",
+              "name": "Simple harmonic motion (S.H.M.) and its equation; phase",
+              "order": 2
+            },
+            {
+              "id": "physics-u10-t3",
+              "name": "Oscillations of a spring - restoring force and force constant; energy in S.H.M. - Kinetic and potential energies",
+              "order": 3
+            },
+            {
+              "id": "physics-u10-t4",
+              "name": "Simple pendulum - derivation of expression for its time period",
+              "order": 4
+            },
+            {
+              "id": "physics-u10-t5",
+              "name": "Wave motion. Longitudinal and transverse waves, speed of travelling wave",
+              "order": 5
+            },
+            {
+              "id": "physics-u10-t6",
+              "name": "Displacement relation for a progressive wave",
+              "order": 6
+            },
+            {
+              "id": "physics-u10-t7",
+              "name": "Principle of superposition of waves, reflection of waves",
+              "order": 7
+            },
+            {
+              "id": "physics-u10-t8",
+              "name": "Standing waves in strings and organ pipes, fundamental mode and harmonics",
+              "order": 8
+            },
+            {
+              "id": "physics-u10-t9",
+              "name": "Beats",
+              "order": 9
+            }
+          ]
+        },
+        {
+          "id": "physics-u11",
+          "name": "Electrostatics",
+          "syllabusPages": "p.2-3",
+          "order": 11,
+          "topics": [
+            {
+              "id": "physics-u11-t1",
+              "name": "Electric charges: Conservation of charge",
+              "order": 1
+            },
+            {
+              "id": "physics-u11-t2",
+              "name": "Coulomb's law forces between two point charges, forces between multiple charges: superposition principle and continuous charge distribution",
+              "order": 2
+            },
+            {
+              "id": "physics-u11-t3",
+              "name": "Electric field: Electric field due to a point charge, Electric field lines",
+              "order": 3
+            },
+            {
+              "id": "physics-u11-t4",
+              "name": "Electric dipole, Electric field due to a dipole, Torque on a dipole in a uniform electric field",
+              "order": 4
+            },
+            {
+              "id": "physics-u11-t5",
+              "name": "Electric flux. Gauss's law and its applications to find field due to infinitely long uniformly charged straight wire, uniformly charged infinite plane sheet, and uniformly charged thin spherical shell",
+              "order": 5
+            },
+            {
+              "id": "physics-u11-t6",
+              "name": "Electric potential and its calculation for a point charge, electric dipole and system of charges; potential difference, Equipotential surfaces",
+              "order": 6
+            },
+            {
+              "id": "physics-u11-t7",
+              "name": "Electrical potential energy of a system of two point charges and of electric dipole in an electrostatic field",
+              "order": 7
+            },
+            {
+              "id": "physics-u11-t8",
+              "name": "Conductors and insulators. Dielectrics and electric polarization",
+              "order": 8
+            },
+            {
+              "id": "physics-u11-t9",
+              "name": "Capacitors and capacitances, the combination of capacitors in series and parallel",
+              "order": 9
+            },
+            {
+              "id": "physics-u11-t10",
+              "name": "Capacitance of a parallel plate capacitor with and without dielectric medium between the plates",
+              "order": 10
+            },
+            {
+              "id": "physics-u11-t11",
+              "name": "Energy stored in a capacitor",
+              "order": 11
+            }
+          ]
+        },
+        {
+          "id": "physics-u12",
+          "name": "Current Electricity",
+          "syllabusPages": "p.3",
+          "order": 12,
+          "topics": [
+            {
+              "id": "physics-u12-t1",
+              "name": "Electric current. Drift velocity, mobility and their relation with electric current",
+              "order": 1
+            },
+            {
+              "id": "physics-u12-t2",
+              "name": "Ohm's law. Electrical resistance. V-I characteristics of Ohmic and non-ohmic conductors",
+              "order": 2
+            },
+            {
+              "id": "physics-u12-t3",
+              "name": "Electrical energy and power. Electrical resistivity and conductivity",
+              "order": 3
+            },
+            {
+              "id": "physics-u12-t4",
+              "name": "Series and parallel combinations of resistors; Temperature dependence of resistance",
+              "order": 4
+            },
+            {
+              "id": "physics-u12-t5",
+              "name": "Internal resistance, potential difference and emf of a cell, a combination of cells in series and parallel",
+              "order": 5
+            },
+            {
+              "id": "physics-u12-t6",
+              "name": "Kirchhoff's laws and their applications",
+              "order": 6
+            },
+            {
+              "id": "physics-u12-t7",
+              "name": "Wheatstone bridge. Metre Bridge",
+              "order": 7
+            }
+          ]
+        },
+        {
+          "id": "physics-u13",
+          "name": "Magnetic Effects of Current and Magnetism",
+          "syllabusPages": "p.3",
+          "order": 13,
+          "topics": [
+            {
+              "id": "physics-u13-t1",
+              "name": "Biot-Savart law and its application to current carrying circular loop",
+              "order": 1
+            },
+            {
+              "id": "physics-u13-t2",
+              "name": "Ampere's law and its applications to infinitely long current carrying straight wire and solenoid",
+              "order": 2
+            },
+            {
+              "id": "physics-u13-t3",
+              "name": "Force on a moving charge in uniform magnetic and electric fields",
+              "order": 3
+            },
+            {
+              "id": "physics-u13-t4",
+              "name": "Force on a current-carrying conductor in a uniform magnetic field",
+              "order": 4
+            },
+            {
+              "id": "physics-u13-t5",
+              "name": "The force between two parallel currents carrying conductors-definition of ampere",
+              "order": 5
+            },
+            {
+              "id": "physics-u13-t6",
+              "name": "Torque experienced by a current loop in a uniform magnetic field",
+              "order": 6
+            },
+            {
+              "id": "physics-u13-t7",
+              "name": "Moving coil galvanometer, its sensitivity, and conversion to ammeter and voltmeter",
+              "order": 7
+            },
+            {
+              "id": "physics-u13-t8",
+              "name": "Current loop as a magnetic dipole and its magnetic dipole moment",
+              "order": 8
+            },
+            {
+              "id": "physics-u13-t9",
+              "name": "Bar magnet as an equivalent solenoid, magnetic field lines",
+              "order": 9
+            },
+            {
+              "id": "physics-u13-t10",
+              "name": "Magnetic field due to a magnetic dipole (bar magnet) along its axis and perpendicular to its axis",
+              "order": 10
+            },
+            {
+              "id": "physics-u13-t11",
+              "name": "Torque on a magnetic dipole in a uniform magnetic field",
+              "order": 11
+            },
+            {
+              "id": "physics-u13-t12",
+              "name": "Para-, dia- and ferromagnetic substances with examples, effect of temperature on magnetic properties",
+              "order": 12
+            }
+          ]
+        },
+        {
+          "id": "physics-u14",
+          "name": "Electromagnetic Induction and Alternating Currents",
+          "syllabusPages": "p.3",
+          "order": 14,
+          "topics": [
+            {
+              "id": "physics-u14-t1",
+              "name": "Electromagnetic induction: Faraday's law",
+              "order": 1
+            },
+            {
+              "id": "physics-u14-t2",
+              "name": "Induced emf and current: Lenz's Law, Eddy currents",
+              "order": 2
+            },
+            {
+              "id": "physics-u14-t3",
+              "name": "Self and mutual inductance",
+              "order": 3
+            },
+            {
+              "id": "physics-u14-t4",
+              "name": "Alternating currents, peak and RMS value of alternating current/voltage",
+              "order": 4
+            },
+            {
+              "id": "physics-u14-t5",
+              "name": "Reactance and impedance: LCR series circuit, resonance",
+              "order": 5
+            },
+            {
+              "id": "physics-u14-t6",
+              "name": "Power in AC circuits, wattless current",
+              "order": 6
+            },
+            {
+              "id": "physics-u14-t7",
+              "name": "AC generator and transformer",
+              "order": 7
+            }
+          ]
+        },
+        {
+          "id": "physics-u15",
+          "name": "Electromagnetic Waves",
+          "syllabusPages": "p.3",
+          "order": 15,
+          "topics": [
+            {
+              "id": "physics-u15-t1",
+              "name": "Displacement current",
+              "order": 1
+            },
+            {
+              "id": "physics-u15-t2",
+              "name": "Electromagnetic waves and their characteristics, Transverse nature of electromagnetic waves",
+              "order": 2
+            },
+            {
+              "id": "physics-u15-t3",
+              "name": "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, X-rays, Gamma rays)",
+              "order": 3
+            },
+            {
+              "id": "physics-u15-t4",
+              "name": "Applications of e.m. waves",
+              "order": 4
+            }
+          ]
+        },
+        {
+          "id": "physics-u16",
+          "name": "Optics",
+          "syllabusPages": "p.3-4",
+          "order": 16,
+          "topics": [
+            {
+              "id": "physics-u16-t1",
+              "name": "Reflection of light, spherical mirrors, mirror formula",
+              "order": 1
+            },
+            {
+              "id": "physics-u16-t2",
+              "name": "Refraction of light at plane and spherical surfaces, thin lens formula and lens maker formula",
+              "order": 2
+            },
+            {
+              "id": "physics-u16-t3",
+              "name": "Total internal reflection and its applications",
+              "order": 3
+            },
+            {
+              "id": "physics-u16-t4",
+              "name": "Magnification. Power of a Lens. Combination of thin lenses in contact",
+              "order": 4
+            },
+            {
+              "id": "physics-u16-t5",
+              "name": "Refraction of light through a prism",
+              "order": 5
+            },
+            {
+              "id": "physics-u16-t6",
+              "name": "Microscope and Astronomical Telescope (reflecting and refracting) and their magnifying powers",
+              "order": 6
+            },
+            {
+              "id": "physics-u16-t7",
+              "name": "Wave optics: wavefront and Huygens' principle. Laws of reflection and refraction using Huygens principle",
+              "order": 7
+            },
+            {
+              "id": "physics-u16-t8",
+              "name": "Interference, Young's double-slit experiment and expression for fringe width, coherent sources, and sustained interference of light",
+              "order": 8
+            },
+            {
+              "id": "physics-u16-t9",
+              "name": "Diffraction due to a single slit, width of central maximum",
+              "order": 9
+            },
+            {
+              "id": "physics-u16-t10",
+              "name": "Polarization, plane-polarized light: Brewster's law, uses of plane-polarized light and Polaroid",
+              "order": 10
+            }
+          ]
+        },
+        {
+          "id": "physics-u17",
+          "name": "Dual Nature of Matter and Radiation",
+          "syllabusPages": "p.4",
+          "order": 17,
+          "topics": [
+            {
+              "id": "physics-u17-t1",
+              "name": "Dual nature of radiation. Photoelectric effect. Hertz and Lenard's observations",
+              "order": 1
+            },
+            {
+              "id": "physics-u17-t2",
+              "name": "Einstein's photoelectric equation: particle nature of light",
+              "order": 2
+            },
+            {
+              "id": "physics-u17-t3",
+              "name": "Matter waves-wave nature of particle, de Broglie relation",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "id": "physics-u18",
+          "name": "Atoms and Nuclei",
+          "syllabusPages": "p.4",
+          "order": 18,
+          "topics": [
+            {
+              "id": "physics-u18-t1",
+              "name": "Alpha-particle scattering experiment; Rutherford's model of atom",
+              "order": 1
+            },
+            {
+              "id": "physics-u18-t2",
+              "name": "Bohr model, energy levels, hydrogen spectrum",
+              "order": 2
+            },
+            {
+              "id": "physics-u18-t3",
+              "name": "Composition and size of nucleus, atomic masses",
+              "order": 3
+            },
+            {
+              "id": "physics-u18-t4",
+              "name": "Mass-energy relation, mass defect; binding energy per nucleon and its variation with mass number",
+              "order": 4
+            },
+            {
+              "id": "physics-u18-t5",
+              "name": "Nuclear fission, and fusion",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "id": "physics-u19",
+          "name": "Electronic Devices",
+          "syllabusPages": "p.4",
+          "order": 19,
+          "topics": [
+            {
+              "id": "physics-u19-t1",
+              "name": "Semiconductors; semiconductor diode: I-V characteristics in forward and reverse bias; diode as a rectifier",
+              "order": 1
+            },
+            {
+              "id": "physics-u19-t2",
+              "name": "I-V characteristics of LED, the photodiode, solar cell, and Zener diode; Zener diode as a voltage regulator",
+              "order": 2
+            },
+            {
+              "id": "physics-u19-t3",
+              "name": "Logic gates (OR, AND, NOT, NAND and NOR)",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "id": "physics-u20",
+          "name": "Experimental Skills",
+          "syllabusPages": "p.4-5",
+          "order": 20,
+          "topics": [
+            {
+              "id": "physics-u20-t1",
+              "name": "Vernier calipers - its use to measure the internal and external diameter and depth of a vessel",
+              "order": 1
+            },
+            {
+              "id": "physics-u20-t2",
+              "name": "Screw gauge - its use to determine thickness/diameter of thin sheet/wire",
+              "order": 2
+            },
+            {
+              "id": "physics-u20-t3",
+              "name": "Simple Pendulum - dissipation of energy by plotting a graph between the square of amplitude and time",
+              "order": 3
+            },
+            {
+              "id": "physics-u20-t4",
+              "name": "Metre Scale - the mass of a given object by the principle of moments",
+              "order": 4
+            },
+            {
+              "id": "physics-u20-t5",
+              "name": "Young's modulus of elasticity of the material of a metallic wire",
+              "order": 5
+            },
+            {
+              "id": "physics-u20-t6",
+              "name": "Surface tension of water by capillary rise and effect of detergents",
+              "order": 6
+            },
+            {
+              "id": "physics-u20-t7",
+              "name": "Co-efficient of Viscosity of a given viscous liquid by measuring terminal velocity of a given spherical body",
+              "order": 7
+            },
+            {
+              "id": "physics-u20-t8",
+              "name": "Speed of sound in air at room temperature using a resonance tube",
+              "order": 8
+            },
+            {
+              "id": "physics-u20-t9",
+              "name": "Specific heat capacity of a given (i) solid and (ii) liquid by method of mixtures",
+              "order": 9
+            },
+            {
+              "id": "physics-u20-t10",
+              "name": "The resistivity of the material of a given wire using a metre bridge",
+              "order": 10
+            },
+            {
+              "id": "physics-u20-t11",
+              "name": "The resistance of a given wire using Ohm's law",
+              "order": 11
+            },
+            {
+              "id": "physics-u20-t12",
+              "name": "Resistance and figure of merit of a galvanometer by half deflection method",
+              "order": 12
+            },
+            {
+              "id": "physics-u20-t13",
+              "name": "The focal length of (i) Convex mirror, (ii) Concave mirror, and (iii) Convex lens, using the parallax method",
+              "order": 13
+            },
+            {
+              "id": "physics-u20-t14",
+              "name": "The plot of the angle of deviation vs angle of incidence for a triangular prism",
+              "order": 14
+            },
+            {
+              "id": "physics-u20-t15",
+              "name": "Refractive index of a glass slab using a travelling microscope",
+              "order": 15
+            },
+            {
+              "id": "physics-u20-t16",
+              "name": "Characteristic curves of a p-n junction diode in forward and reverse bias",
+              "order": 16
+            },
+            {
+              "id": "physics-u20-t17",
+              "name": "Characteristic curves of a Zener diode and finding reverse break down voltage",
+              "order": 17
+            },
+            {
+              "id": "physics-u20-t18",
+              "name": "Identification of Diode, LED, Resistor, A capacitor from a mixed collection of such items",
+              "order": 18
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

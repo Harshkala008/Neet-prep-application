@@ -1,0 +1,17 @@
+{
+  "name": "neet-master-tracker-pro",
+  "private": true,
+  "packageManager": "pnpm@9.15.5",
+  "scripts": {
+    "dev": "corepack pnpm --parallel --filter @neet/web --filter @neet/api dev",
+    "build": "corepack pnpm -r build",
+    "lint": "corepack pnpm -r lint",
+    "typecheck": "corepack pnpm -r typecheck",
+    "test": "corepack pnpm -r test",
+    "seed:validate": "corepack pnpm --filter @neet/shared seed:validate"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.7.3"
+  }
+}

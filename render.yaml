@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: neet-master-tracker
+    runtime: static
+    buildCommand: corepack enable && corepack pnpm install --frozen-lockfile && corepack pnpm build
+    staticPublishPath: apps/web/out
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+      - path: /_next/static/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable

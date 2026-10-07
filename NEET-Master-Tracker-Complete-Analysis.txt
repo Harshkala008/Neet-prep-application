@@ -1,0 +1,1494 @@
+NEET MASTER TRACKER — UG 2026
+COMPLETE APP ANALYSIS
+
+Inspected live app:
+https://neet-master-tracker.web.app/
+
+======================================================================
+1. MAIN PURPOSE
+======================================================================
+
+NEET Master Tracker is a NEET UG 2026 syllabus and preparation-progress
+tracking application. It is primarily a checklist and analytics app for
+tracking chapters, subtopics, study resources, tests, mistakes, revision
+confidence, and study time.
+
+The app helps a student:
+
+- Track the entire NEET UG 2026 syllabus.
+- Break subjects into units and smaller topics.
+- Mark study resources as completed.
+- Track lectures, modules, DPPs, NCERT reading, PYQs, and revision.
+- Record confidence for every topic.
+- Set revision dates.
+- Store personal notes.
+- Log mistakes from tests or practice.
+- Record mock-test scores.
+- Track study time using a timer.
+- View study streaks and recent activity.
+- Export/import progress data.
+- Optionally sign in to synchronize progress across devices.
+
+Initial empty tracker state:
+
+- 50 total units
+- 342 trackable topics/items
+- 0 completed
+- 0 in progress
+- 342 not started
+- 0 needing revision
+
+======================================================================
+2. MAIN NAVIGATION
+======================================================================
+
+The top navigation contains:
+
+1. Dashboard
+2. Physics
+3. Chemistry
+4. Biology
+5. Planner
+6. More menu
+7. Syllabus search
+8. Sign-in status
+9. Theme toggle
+
+The More menu contains:
+
+- All / Search
+- Tests
+- Mistakes
+- Study
+- Activity
+- Data
+
+The application is a client-rendered single-page app. Navigation changes
+the visible view without a full page reload.
+
+======================================================================
+3. DASHBOARD
+======================================================================
+
+The dashboard is the main overview page.
+
+OVERALL PROGRESS
+
+It displays:
+
+- Overall percentage
+- Total units
+- Total trackable items
+- Completed items
+- In-progress items
+- Not-started items
+- Topics needing revision
+
+Initial dashboard state:
+
+Overall: 0%
+50 units
+342 trackable items
+0 completed
+0 in progress
+342 not started
+0 need revision
+
+SUBJECT SUMMARY CARDS
+
+Physics:
+- 20 units
+- 147 items
+- 0% complete
+
+Chemistry:
+- 20 units
+- 121 items
+- 0% complete
+
+Biology:
+- 10 units
+- 74 items
+- 0% complete
+
+Each subject card has an "Open tracker" button.
+
+RESOURCE ANALYTICS
+
+The dashboard includes resource-level completion analytics.
+
+Resources tracked:
+
+- Lecture
+- Unacademy Module
+- ALLEN Module
+- Aakash Module
+- Errorless
+- PW DPP
+- Unacademy DPP
+- Physicsaholics DPP
+- AKA DPP
+- Seep Mam DPP
+- NCERT Reading
+- PYQs
+- Revision
+- Done
+
+Each resource displays:
+
+Completed count / Applicable count · percentage
+
+Initial state:
+
+Lecture 0/342 · 0%
+Unacademy Module 0/342 · 0%
+ALLEN Module 0/342 · 0%
+Aakash Module 0/342 · 0%
+Errorless 0/342 · 0%
+PW DPP 0/342 · 0%
+Unacademy DPP 0/342 · 0%
+Physicsaholics DPP 0/147 · 0%
+AKA DPP 0/121 · 0%
+Seep Mam DPP 0/74 · 0%
+NCERT Reading 0/342 · 0%
+PYQs 0/342 · 0%
+Revision 0/342 · 0%
+Done 0/342 · 0%
+
+The app states that Not Applicable items are excluded from each
+resource's denominator.
+
+SUBJECT COMPARISON
+
+The dashboard shows side-by-side progress for:
+
+- Physics
+- Chemistry
+- Biology
+
+RECENTLY UPDATED
+
+Displays recently changed topics.
+
+Initial state:
+Nothing yet.
+
+RECENTLY COMPLETED
+
+Displays recently completed topics.
+
+Initial state:
+Nothing yet.
+
+======================================================================
+4. PHYSICS TRACKER
+======================================================================
+
+Physics contains:
+
+- 20 units
+- 147 trackable items
+
+Physics units:
+
+1. Physics and Measurement
+2. Kinematics
+3. Laws of Motion
+4. Work, Energy, and Power
+5. Rotational Motion
+6. Gravitation
+7. Properties of Solids and Liquids
+8. Thermodynamics
+9. Kinetic Theory of Gases
+10. Oscillations and Waves
+11. Electrostatics
+12. Current Electricity
+13. Magnetic Effects of Current and Magnetism
+14. Electromagnetic Induction and Alternating Currents
+15. Electromagnetic Waves
+16. Optics
+17. Dual Nature of Matter and Radiation
+18. Atoms and Nuclei
+19. Electronic Devices
+20. Experimental Skills
+
+Each unit includes a syllabus page reference such as:
+
+- syllabus p.1
+- syllabus p.2
+- syllabus p.3-4
+
+The syllabus is identified by the app as the official NMC/UGMEB NEET
+UG 2026 syllabus.
+
+======================================================================
+5. CHEMISTRY TRACKER
+======================================================================
+
+Chemistry contains:
+
+- 20 units
+- 121 trackable items
+
+Chemistry units:
+
+1. Some Basic Concepts in Chemistry
+2. Atomic Structure
+3. Chemical Bonding and Molecular Structure
+4. Chemical Thermodynamics
+5. Solutions
+6. Equilibrium
+7. Redox Reactions and Electrochemistry
+8. Chemical Kinetics
+9. Classification of Elements and Periodicity in Properties
+10. P-Block Elements
+11. d- and f-Block Elements
+12. Co-ordination Compounds
+13. Purification and Characterisation of Organic Compounds
+14. Some Basic Principles of Organic Chemistry
+15. Hydrocarbons
+16. Organic Compounds Containing Halogens
+17. Organic Compounds Containing Oxygen
+18. Organic Compounds Containing Nitrogen
+19. Biomolecules
+20. Principles Related to Practical Chemistry
+
+Chemistry syllabus page references run approximately from pages 6
+through 11.
+
+======================================================================
+6. BIOLOGY TRACKER
+======================================================================
+
+Biology contains:
+
+- 10 units
+- 74 trackable items
+
+Biology units:
+
+1. Diversity in Living World
+2. Structural Organisation in Animals and Plants
+3. Cell Structure and Function
+4. Plant Physiology
+5. Human Physiology
+6. Reproduction
+7. Genetics and Evolution
+8. Biology and Human Welfare
+9. Biotechnology and Its Applications
+10. Ecology and Environment
+
+Biology syllabus page references run approximately from pages 12
+through 15.
+
+======================================================================
+7. UNIT-LEVEL BEHAVIOR
+======================================================================
+
+Each subject page contains:
+
+- Status filter
+- Confidence filter
+- Confidence sorting
+- Expand all
+- Collapse all
+- Reset filters
+- Resource-pending shortcut buttons
+- Subject progress summary
+- Bulk resource controls
+- Individual units
+
+UNIT SUMMARY
+
+Each unit displays:
+
+- Unit name
+- Syllabus page
+- Completed topic count
+- Unit completion percentage
+- Bulk resource controls
+
+Example:
+
+Unit 1: Physics and Measurement
+0/6 · 0%
+
+BULK ACTIONS
+
+Each unit supports:
+
+- Selecting a resource
+- Tick
+- Untick
+- N/A
+- Clear N/A
+- Done
+
+The selected bulk resource can be changed from a dropdown.
+
+Examples:
+
+- Mark all lectures in a unit as completed.
+- Mark all PYQs as pending.
+- Mark a resource as not applicable for all topics.
+- Mark all topics in the unit as done.
+
+Bulk actions trigger confirmation dialogs such as:
+
+Mark 6 topics Done?
+
+======================================================================
+8. TOPIC-LEVEL TRACKER
+======================================================================
+
+Expanding a unit reveals individual topics.
+
+Example Physics Unit 1 topics:
+
+- Units of measurements, System of Units, S I Units, fundamental and
+  derived units
+- Least count, significant figures
+- Errors in measurements
+- Dimensions of Physics quantities, dimensional analysis, and its
+  applications
+- Basic Mathematics
+- Vectors
+
+Each topic initially shows:
+
+Not started
+0/12
+
+The 0/12 represents the tracked resource/action checklist for that
+topic.
+
+TOPIC RESOURCE CHECKLIST
+
+Each topic can track:
+
+- Lecture
+- Unacademy Module
+- ALLEN Module
+- Aakash Module
+- Errorless
+- PW DPP
+- Unacademy DPP
+- Physicsaholics DPP, for Physics
+- AKA DPP, for Chemistry
+- Seep Mam DPP, for Biology
+- NCERT Reading
+- PYQs
+- Revision
+- Done
+
+Each item includes:
+
+- A checkbox
+- Resource name
+- N/A toggle
+
+N/A BEHAVIOR
+
+Each resource has an N/A control.
+
+This is useful when:
+
+- A student does not use a particular coaching module.
+- A resource does not exist for a particular topic.
+- A resource is irrelevant for that subject.
+
+N/A resources are excluded from resource completion denominators.
+
+CONFIDENCE RATING
+
+Each topic supports:
+
+- Unrated
+- 1/5
+- 2/5
+- 3/5
+- 4/5
+- 5/5
+
+Confidence filters:
+
+- All confidence
+- Low confidence (1-2)
+- Confidence 1/5
+- Confidence 2/5
+- Confidence 3/5
+- Confidence 4/5
+- Confidence 5/5
+
+Confidence sorting:
+
+- Original order
+- Lowest confidence
+- Highest confidence
+
+REVISION DATES
+
+Each topic has:
+
+- Last revised
+- Next revision
+
+These dates identify topics that need revision.
+
+PERSONAL NOTES
+
+Every topic has a notes field with the placeholder:
+
+Personal notes
+
+Students can store:
+
+- Important formulas
+- Confusing concepts
+- Teacher instructions
+- Revision summaries
+- Links or reminders
+- Common mistakes
+
+MISTAKE LOGGING
+
+Each topic has a "Log mistake for this topic" action.
+
+A topic can contain multiple mistakes. Initial state:
+
+No mistakes logged for this topic.
+
+======================================================================
+9. FILTERS AND SEARCH
+======================================================================
+
+STATUS FILTERS
+
+- All topics
+- Checked topics only
+- Completed
+- In progress
+- Not started
+- Needs revision
+- Recently updated
+
+Examples:
+
+- Show only unfinished topics.
+- Show topics with at least one completed resource.
+- Show low-confidence or revision-required topics.
+- Show recently modified topics.
+
+GLOBAL SYLLABUS SEARCH
+
+The header contains:
+
+Search syllabus
+
+Searching a term such as Kinematics filters the tracker to matching
+units and topics.
+
+RESOURCE PENDING SHORTCUTS
+
+- Lecture pending
+- Unacademy Module pending
+- ALLEN Module pending
+- Aakash Module pending
+- Errorless pending
+- PW DPP pending
+- Unacademy DPP pending
+- Physicsaholics DPP pending
+- AKA DPP pending
+- Seep Mam DPP pending
+- NCERT Reading pending
+- PYQs pending
+- Revision pending
+
+These shortcuts filter the app to unfinished resources.
+
+======================================================================
+10. ALL / SEARCH PAGE
+======================================================================
+
+The All / Search page displays the entire syllabus in one view.
+
+It contains:
+
+- Status filters
+- Confidence filters
+- Confidence sorting
+- Expand all
+- Collapse all
+- Reset filters
+- Resource pending shortcuts
+- Physics units
+- Chemistry units
+- Biology units
+- Topic-level checklists
+
+This is useful for searching across all three subjects without
+navigating subject by subject.
+
+======================================================================
+11. PLANNER
+======================================================================
+
+The Planner page contains:
+
+- Target date input
+- Remaining item count
+- Suggested daily workload
+- Needs revision section
+
+Initial state:
+
+342 items remaining.
+Set a target date for a suggested daily workload.
+Your progress is never changed by the planner.
+
+The planner appears to estimate daily workload using:
+
+Remaining applicable items / remaining days
+
+CURRENT PLANNER LIMITATIONS
+
+The current planner does not visibly include:
+
+- Subject weighting
+- Topic difficulty
+- Personal study hours
+- Daily availability
+- Rest days
+- Mock-test days
+- Priority chapters
+- Weak-topic prioritization
+- Resource-specific workload
+- Automatic calendar scheduling
+- Drag-and-drop planning
+- Notifications or reminders
+
+This is a major area for improvement.
+
+======================================================================
+12. TESTS PAGE
+======================================================================
+
+The Tests page records mock tests and exam scores.
+
+TEST ENTRY FIELDS
+
+- Test name
+- Date
+- Total marks obtained
+- Physics marks
+- Chemistry marks
+- Biology marks
+- Maximum marks
+- Note
+- Add test button
+
+Initial maximum marks:
+
+720
+
+The app explains the NEET marking scheme:
+
+- +4 for correct
+- -1 for incorrect
+- 0 for unanswered
+
+It also validates that negative maximum marks are invalid.
+
+TEST ANALYTICS
+
+- Number of tests
+- Last 5 average percentage
+- Best percentage
+- Physics test count
+- Chemistry test count
+- Biology test count
+
+Initial state:
+
+0 tests
+Last 5 average 0%
+Best 0%
+Physics 0
+Chemistry 0
+Biology 0
+
+TEST CHART
+
+The chart appears after tests are added.
+
+Initial state:
+
+Add a test to see the chart.
+
+TEST HISTORY
+
+Initial state:
+
+No tests recorded.
+
+POSSIBLE TEST-PAGE IMPROVEMENTS
+
+- Correct/incorrect/unattempted question fields
+- Accuracy
+- Attempt rate
+- Subject-wise percentage
+- Chapter-wise performance
+- Time-management analysis
+- Rank tracking
+- Percentile
+- Comparison between tests
+- Mistake import from a test
+- Automatic score calculation from question counts
+- Question paper upload
+- Test tags such as full syllabus, part test, or chapter test
+
+======================================================================
+13. MISTAKES PAGE
+======================================================================
+
+The Mistakes page works as a mistake notebook and analysis dashboard.
+
+LOG-A-MISTAKE FORM
+
+- Topic
+- Reason
+- Date
+- Fixed checkbox
+- Short question
+- Description
+
+MISTAKE REASONS
+
+1. Concept gap
+2. Formula forgotten
+3. Calculation error
+4. Silly mistake
+5. Ran out of time
+6. Guess
+
+The default reason is Guess.
+
+MISTAKE STATUS
+
+- Unfixed
+- Fixed
+
+MISTAKE FILTERS
+
+Reason filter:
+
+- All reasons
+- Concept gap
+- Formula forgotten
+- Calculation error
+- Silly mistake
+- Ran out of time
+- Guess
+
+Status filter:
+
+- All status
+- Unfixed
+- Fixed
+
+Subject filter:
+
+- All subjects
+- Physics
+- Chemistry
+- Biology
+
+MISTAKE ANALYTICS
+
+- Unfixed count
+- Total mistake count
+- Number of shown mistakes
+- Mistakes by reason
+- Mistakes by subject
+- Weakest 10 unfixed mistakes
+
+Initial state:
+
+0 unfixed
+0 total
+0 shown
+
+======================================================================
+14. STUDY TIMER
+======================================================================
+
+The Study page contains a study timer.
+
+TIMER FEATURES
+
+- Current elapsed time
+- Study goal
+- Subject selection
+- Optional topic selection
+- Start timer
+- Add manual session
+- Daily study summary
+- Weekly study summary
+- Study streak
+- Seven-day visualization
+- Session history
+
+SUBJECT SELECTION
+
+- Physics
+- Chemistry
+- Biology
+
+TOPIC SELECTION
+
+A study session can be attached to an optional topic. Topics are shown
+in a hierarchy such as:
+
+Physics
+  > Unit 1: Physics and Measurement
+    > Units of measurements...
+
+STUDY GOALS
+
+- 25 minutes
+- 50 minutes
+- 90 minutes
+
+Initial selected goal:
+
+50 minutes
+
+DAILY STATISTICS
+
+Initial state:
+
+Today: 0 m
+Daily goal: 3 h 20 m
+This week: 0 m
+Study streak: 0 days
+
+SEVEN-DAY CHART
+
+The chart shows Physics, Chemistry, and Biology study time for the
+previous seven days and today.
+
+SESSION HISTORY
+
+Initial state:
+
+No study sessions recorded yet.
+Start the timer above!
+
+CURRENT TIMER LIMITATION
+
+The manual-session action appears to use a browser prompt. During
+automated inspection, this generated a "prompt() is not supported"
+browser error. A proper in-app modal form would be more accessible and
+reliable.
+
+======================================================================
+15. ACTIVITY PAGE
+======================================================================
+
+The Activity page provides high-level study analytics.
+
+It displays:
+
+- Current streak
+- Total study time
+- Active days
+- Last seven days
+- 30-day heat strip
+
+Initial state:
+
+Current streak: 0 days
+Total study time: 0h 0m
+Active days: 0
+
+The 30-day heat strip is similar to a GitHub contribution calendar.
+
+======================================================================
+16. DATA, BACKUP, AND PRINT
+======================================================================
+
+The Data page contains:
+
+- Export JSON
+- Export CSV
+- Import JSON
+- Print checklist
+
+The page explains:
+
+Sign in to sync across devices.
+Until then progress is stored only on this device.
+Export a JSON backup any time.
+
+SYLLABUS SOURCE
+
+The app identifies its syllabus as:
+
+NMC/UGMEB NEET (UG) 2026
+Notice dated 22-12-2025
+
+The app also references a build note for tracking granularity.
+
+DATA BEHAVIOR
+
+Unsigned users are told that data remains on the current device.
+
+The live app uses Firebase-related browser persistence. Browser
+inspection showed Firebase IndexedDB databases:
+
+- firebase-heartbeat-database
+- firebaseLocalStorageDb
+
+No ordinary localStorage keys were present in the clean initial state.
+
+======================================================================
+17. AUTHENTICATION
+======================================================================
+
+The app supports optional authentication.
+
+SIGN-IN OPTIONS
+
+- Email and password
+- Google sign-in
+- Continue without signing in
+
+The sign-in screen says:
+
+Keep your study progress in sync.
+
+ACCOUNT CREATION
+
+- Email
+- Password
+- Create account
+- Continue with Google
+- Back to sign in
+- Continue without signing in
+
+The password field indicates a minimum of six characters.
+
+AUTHENTICATION MODEL
+
+Anonymous/local use:
+Progress remains on the current device.
+
+Authenticated use:
+Progress is intended to synchronize across devices.
+
+The site is hosted on Firebase Hosting and includes the Firebase client
+SDK.
+
+======================================================================
+18. THEME SUPPORT
+======================================================================
+
+The header includes a theme toggle:
+
+🌓
+
+This is intended to switch between light and dark display modes.
+
+A stronger version should persist the theme choice and support:
+
+- Light
+- Dark
+- System preference
+
+======================================================================
+19. RESPONSIVE BEHAVIOR
+======================================================================
+
+The app includes a responsive viewport configuration:
+
+width=device-width, initial-scale=1, viewport-fit=cover
+
+At mobile width, the main navigation and tracker content adapt to a
+narrower screen.
+
+The mobile interface still exposes:
+
+- Subject navigation
+- Planner
+- More menu
+- Search
+- Authentication
+- Theme toggle
+- Filters
+- Tracker controls
+
+Recommended mobile improvements:
+
+- Sticky bottom navigation
+- Filter drawer
+- Floating search action
+- Collapsible bulk actions
+- Compact topic cards
+- Larger touch targets
+
+======================================================================
+20. UNDERLYING DATA MODEL
+======================================================================
+
+The current application appears to use this hierarchy:
+
+Subject
+  > Unit
+    > Topic
+      > Resource completion states
+      > N/A states
+      > Confidence
+      > Last revised date
+      > Next revision date
+      > Notes
+      > Mistakes
+
+A practical data model for a better version:
+
+User
+- id
+- email
+- displayName
+- createdAt
+- targetExamDate
+- timezone
+- preferences
+
+Subject
+- id
+- name
+- color
+- icon
+- displayOrder
+
+Unit
+- id
+- subjectId
+- name
+- syllabusPages
+- displayOrder
+
+Topic
+- id
+- unitId
+- name
+- description
+- difficulty
+- importance
+- displayOrder
+
+TopicResource
+- id
+- topicId
+- resourceType
+- status
+- isApplicable
+- completedAt
+- link
+- notes
+
+TopicProgress
+- topicId
+- confidence
+- lastRevisedAt
+- nextRevisionAt
+- notes
+- status
+- updatedAt
+
+Mistake
+- id
+- userId
+- topicId
+- testId
+- reason
+- question
+- description
+- fixed
+- createdAt
+- fixedAt
+
+Test
+- id
+- userId
+- name
+- date
+- marksObtained
+- maximumMarks
+- physicsMarks
+- chemistryMarks
+- biologyMarks
+- correct
+- incorrect
+- unanswered
+- note
+
+StudySession
+- id
+- userId
+- subjectId
+- topicId
+- startedAt
+- endedAt
+- durationMinutes
+- source
+- note
+
+======================================================================
+21. HOW PROGRESS LIKELY WORKS
+======================================================================
+
+NOT STARTED
+
+No tracked resource is checked.
+
+IN PROGRESS
+
+At least one resource is checked, but the topic is not marked Done.
+
+COMPLETED
+
+The Done status is checked.
+
+NEEDS REVISION
+
+The next revision date has passed, or the topic has a low-confidence or
+revision-required state.
+
+RESOURCE COMPLETION
+
+Completed applicable topics / applicable topics
+
+N/A topics are removed from the denominator.
+
+OVERALL COMPLETION
+
+Overall completion appears to be calculated from tracked topic/item
+status, rather than only from the number of chapters.
+
+This is why the app reports:
+
+342 trackable items
+
+instead of only reporting 50 units.
+
+======================================================================
+22. STRENGTHS OF THE CURRENT APP
+======================================================================
+
+1. Detailed syllabus coverage
+
+The app covers all three NEET subjects with:
+
+- 50 units
+- 342 smaller trackable topics
+
+2. Resource-specific tracking
+
+It tracks the real preparation workflow:
+
+- Lectures
+- Modules
+- DPPs
+- NCERT
+- PYQs
+- Revision
+- Final completion
+
+3. N/A support
+
+Useful for students who do not use every coaching platform or book.
+
+4. Confidence tracking
+
+A 1–5 confidence rating helps identify weak topics beyond basic
+completion.
+
+5. Mistake notebook
+
+Mistake categorization helps with targeted improvement.
+
+6. Test history
+
+Provides a dedicated place to track mock scores.
+
+7. Study-time tracking
+
+Connects study activity to subjects and topics.
+
+8. Data export
+
+JSON/CSV export and checklist printing are useful for backup and offline
+use.
+
+9. Local-first use
+
+A student can start without creating an account.
+
+======================================================================
+23. WEAKNESSES AND OPPORTUNITIES
+======================================================================
+
+1. The planner is too basic.
+
+It should account for:
+
+- Available study hours
+- Subject priorities
+- Weak topics
+- Revision deadlines
+- Test dates
+- Topic difficulty
+- Number of pending resources
+- Personal pace
+- Rest days
+
+2. No built-in educational content.
+
+The current app does not visibly provide:
+
+- Lecture links
+- PDF links
+- Book pages
+- NCERT page references
+- PYQ links
+- Practice questions
+- Formula sheets
+- Flashcards
+- Explanations
+- Video recommendations
+
+3. Test analytics are limited.
+
+The app should calculate:
+
+- Accuracy
+- Attempt rate
+- Correct/incorrect/unattempted questions
+- Subject-wise accuracy
+- Chapter-wise accuracy
+- Time per question
+- Repeated mistakes
+- Score trend
+- Predicted score range
+
+4. No direct test-to-mistake workflow.
+
+After a mock test, the user should be able to add mistakes directly
+from that test.
+
+5. No reminder system.
+
+There are no visible:
+
+- Revision notifications
+- Daily reminders
+- Test reminders
+- Missed-goal alerts
+- Streak protection
+- Push notifications
+- Email reminders
+
+6. No gamification.
+
+Possible additions:
+
+- XP
+- Streaks
+- Badges
+- Daily goals
+- Weekly challenges
+- Completion milestones
+- Subject-level achievements
+
+7. No social or accountability features.
+
+Possible additions:
+
+- Study groups
+- Friend comparison
+- Mentor dashboard
+- Parent view
+- Shared progress links
+- Weekly reports
+
+8. No performance prediction.
+
+The app could estimate:
+
+- Expected NEET score
+- Subject readiness
+- Syllabus completion date
+- Revision readiness
+- High-risk chapters
+- Weakest topics
+- Required weekly workload
+
+9. Bulk actions can be risky.
+
+The interface should include:
+
+- Clear action labels
+- Undo
+- Preview of affected topics
+- Better confirmation dialogs
+- Selective bulk actions
+- Audit history
+
+10. Manual study-session entry needs a proper form.
+
+An in-app modal is more accessible than a browser prompt.
+
+======================================================================
+24. RECOMMENDED BETTER-VERSION FEATURE SET
+======================================================================
+
+ESSENTIAL IMPROVEMENTS
+
+1. User onboarding
+
+- Exam date
+- Target score
+- Preferred study hours
+- Coaching resources used
+- Current preparation level
+
+2. Smart planner
+
+- Daily schedule
+- Subject balancing
+- Weak-topic prioritization
+- Revision spacing
+- Test scheduling
+
+3. Resource library
+
+- Add resource links
+- Attach PDFs/videos
+- Add book references
+- Mark resource difficulty
+- Track resource duration
+
+4. Better analytics
+
+- Score trends
+- Accuracy
+- Topic performance
+- Subject strength
+- Revision backlog
+- Mistake patterns
+
+5. Revision system
+
+- Spaced repetition
+- Automatic next-revision dates
+- Revision queue
+- Confidence-based prioritization
+- Overdue revision notifications
+
+6. Mistake analysis
+
+- Link mistakes to tests
+- Reattempt workflow
+- Mark corrected
+- Track repeated mistakes
+- Generate weak-topic reports
+
+7. Mobile-first interface
+
+- Bottom navigation
+- Filter drawer
+- Offline support
+- PWA installation
+- Fast one-tap checkboxes
+
+8. Backup and sync
+
+- Cloud sync
+- Conflict resolution
+- Automatic backup
+- Version history
+- Export/import validation
+
+======================================================================
+25. RECOMMENDED DASHBOARD FOR A BETTER VERSION
+======================================================================
+
+Overall readiness: 42%
+
+Syllabus:
+- Completed topics
+- In-progress topics
+- Revision due
+- Not started
+
+Today:
+- Planned study time
+- Completed study time
+- Topics scheduled
+- Tests scheduled
+
+Weakest subjects:
+- Physics: 38%
+- Chemistry: 61%
+- Biology: 74%
+
+Upcoming:
+- Next revision
+- Next mock test
+- Overdue topics
+
+Performance:
+- Last test score
+- Score trend
+- Accuracy trend
+- Mistake count
+
+Quick actions:
+- Start study session
+- Log mistake
+- Add test
+- Open revision queue
+- Continue today's plan
+
+======================================================================
+26. RECOMMENDED AUTOMATIC PLANNING ALGORITHM
+======================================================================
+
+A better planner can calculate topic priority using:
+
+priority =
+  examImportance
+  x weaknessScore
+  x revisionUrgency
+  x resourcePendingScore
+  x difficulty
+
+Example:
+
+weaknessScore:
+1 - confidence / 5
+
+revisionUrgency:
+Higher when nextRevisionDate is overdue.
+
+resourcePendingScore:
+Number of incomplete resources / applicable resources
+
+difficulty:
+Easy = 1
+Medium = 1.5
+Hard = 2
+
+The planner should distribute topics across available daily hours.
+
+It should ensure:
+
+- No subject is ignored.
+- Biology receives appropriate time because of its question weight.
+- Revision is mixed with new learning.
+- Tests are inserted periodically.
+- Hard topics receive longer blocks.
+- Daily workload is realistic.
+
+======================================================================
+27. SUGGESTED NAVIGATION FOR A BETTER APP
+======================================================================
+
+Desktop:
+
+- Home
+- Syllabus
+- Planner
+- Revision
+- Tests
+- Mistakes
+- Study Timer
+- Analytics
+- Resources
+- Profile
+
+Mobile:
+
+- Home
+- Syllabus
+- Planner
+- Study
+- More
+
+The current top navigation works, but it becomes dense on mobile.
+
+======================================================================
+28. PRODUCT POSITIONING
+======================================================================
+
+Current product positioning:
+
+NEET syllabus tracker and preparation dashboard
+
+Better product positioning:
+
+Personal NEET preparation operating system
+
+This would combine:
+
+- Syllabus management
+- Smart planning
+- Study tracking
+- Test analytics
+- Mistake analysis
+- Revision scheduling
+- Resource management
+- Personalized recommendations
+
+======================================================================
+29. FINAL ASSESSMENT
+======================================================================
+
+The current application has a strong foundation for a NEET tracker. Its
+main strengths are its detailed syllabus hierarchy, resource-level
+checklist, confidence ratings, mistake logging, test tracking, study
+timer, and export functionality.
+
+Its largest limitations are:
+
+- Basic planner
+- Limited test analytics
+- No built-in educational resources
+- No reminders
+- Limited automation
+
+To create a better version, preserve the hierarchical tracker and add:
+
+1. Personalized onboarding.
+2. A smart daily planner.
+3. Automatic spaced revision.
+4. Detailed test analytics.
+5. Integrated mistake-to-topic analysis.
+6. Resource links and content organization.
+7. Notifications and reminders.
+8. Mobile-first PWA behavior.
+9. Offline support.
+10. Stronger visual progress and performance insights.
+
+The live app is useful as a checklist and progress database. A stronger
+product should actively guide the student on:
+
+- What to study next
+- Why it should be studied
+- How long it should take
+- Whether the student is improving
+
+======================================================================
+END OF ANALYSIS
+======================================================================
