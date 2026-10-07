@@ -1,7 +1,6 @@
 services:
-  - type: web
+  - type: static_site
     name: neet-master-tracker
-    runtime: static
     buildCommand: corepack enable && corepack pnpm install --frozen-lockfile && corepack pnpm build
     staticPublishPath: apps/web/out
     headers:
