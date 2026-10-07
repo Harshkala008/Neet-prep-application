@@ -56,8 +56,8 @@ site will use a URL such as `https://your-project-id.web.app`.
 3. Build and deploy from the repository root:
 
    ```text
-   corepack pnpm install
-   corepack pnpm build
+   pnpm install
+   pnpm build
    firebase deploy --only hosting
    ```
 
@@ -76,7 +76,7 @@ enabled.
 Alternatively, create a Render **Static Site** from this repository. The
 included `render.yaml` supplies the configuration automatically:
 
-- Build command: `corepack enable && corepack pnpm install --frozen-lockfile && corepack pnpm build`
+- Build command: `pnpm install --frozen-lockfile && pnpm build`
 - Publish directory: `apps/web/out`
 - URL: Render will provide a `*.onrender.com` address after the first deploy
 
